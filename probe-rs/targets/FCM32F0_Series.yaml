@@ -1,0 +1,1299 @@
+name: FCM32F0 Series
+generated_from_pack: true
+pack_file_release: 0.2.4
+variants:
+- name: FCM32F030CCTx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20006000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8040000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_256_2k
+  - fcm32fxxx_opt
+- name: FCM32F030RCTx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20006000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8040000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_256_2k
+  - fcm32fxxx_opt
+- name: FCM32F042C6Tx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20001800
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8008000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_32
+  - fcm32fxxx_opt
+- name: FCM32F042C6Ux
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20001800
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8008000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_32
+  - fcm32fxxx_opt
+- name: FCM32F051C8Tx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20002000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8010000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_64
+  - fcm32fxxx_opt
+- name: FCM32F051R8Tx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20002000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8010000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_opt
+- name: FCM32F070CBTx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20004000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_128_2k
+  - fcm32fxxx_opt
+- name: FCM32F070FBPx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20004000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_128_2k
+  - fcm32fxxx_opt
+- name: FCM32F070RBTx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20004000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_128_2k
+  - fcm32fxxx_opt
+- name: FCM32F071C8Tx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20004000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8010000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_64_2k
+  - fcm32fxxx_opt
+- name: FCM32F071C8Ux
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20004000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8010000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_64_2k
+  - fcm32fxxx_opt
+- name: FCM32F071CBTx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20004000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_128_2k
+  - fcm32fxxx_opt
+- name: FCM32F071CBUx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20004000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_128_2k
+  - fcm32fxxx_opt
+- name: FCM32F071RBTx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20004000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_128_2k
+  - fcm32fxxx_opt
+- name: FCM32F072C8Tx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20004000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8010000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_64_2k
+  - fcm32fxxx_opt
+- name: FCM32F072C8Ux
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20004000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8010000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_64_2k
+  - fcm32fxxx_opt
+- name: FCM32F072CBTx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20004000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_128_2k
+  - fcm32fxxx_opt
+- name: FCM32F072CBUx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20004000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_128_2k
+  - fcm32fxxx_opt
+- name: FCM32F072FBPx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20004000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_128_2k
+  - fcm32fxxx_opt
+- name: FCM32F072R8Tx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20004000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8010000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_64_2k
+  - fcm32fxxx_opt
+- name: FCM32F072RBTx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20004000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_128_2k
+  - fcm32fxxx_opt
+- name: FCM32F091CBTx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20006000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_128_2k
+  - fcm32fxxx_opt
+- name: FCM32F091CBUx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20006000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_128_2k
+  - fcm32fxxx_opt
+- name: FCM32F091CCTx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20006000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8040000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_256_2k
+  - fcm32fxxx_opt
+- name: FCM32F091CCUx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20006000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8040000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_256_2k
+  - fcm32fxxx_opt
+- name: FCM32F091RBTx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20006000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_128_2k
+  - fcm32fxxx_opt
+- name: FCM32F091RCTx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20006000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8040000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_256_2k
+  - fcm32fxxx_opt
+- name: FCM32F092CBTx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20006000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_128_2k
+  - fcm32fxxx_opt
+- name: FCM32F092CBUx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20006000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_128_2k
+  - fcm32fxxx_opt
+- name: FCM32F092CCTx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20006000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8040000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_256_2k
+  - fcm32fxxx_opt
+- name: FCM32F092CCUx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20006000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8040000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_256_2k
+  - fcm32fxxx_opt
+- name: FCM32F092RBTx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20006000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_128_2k
+  - fcm32fxxx_opt
+- name: FCM32F092RCTx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20006000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8040000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_256_2k
+  - fcm32fxxx_opt
+- name: FCM32F095CBTx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20006000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_128_2k
+  - fcm32fxxx_opt
+- name: FCM32F095CBUx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20006000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_128_2k
+  - fcm32fxxx_opt
+- name: FCM32F095CCTx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20006000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8040000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_256_2k
+  - fcm32fxxx_opt
+- name: FCM32F095CCUx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20006000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8040000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_256_2k
+  - fcm32fxxx_opt
+- name: FCM32F095RBTx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20006000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_128_2k
+  - fcm32fxxx_opt
+- name: FCM32F095RCTx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20006000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8040000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_256_2k
+  - fcm32fxxx_opt
+- name: FCM32F096CBTx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20006000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_128_2k
+  - fcm32fxxx_opt
+- name: FCM32F096CBUx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20006000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_128_2k
+  - fcm32fxxx_opt
+- name: FCM32F096CCTx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20006000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8040000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_256_2k
+  - fcm32fxxx_opt
+- name: FCM32F096CCUx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20006000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8040000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_256_2k
+  - fcm32fxxx_opt
+- name: FCM32F096RBTx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20006000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_128_2k
+  - fcm32fxxx_opt
+- name: FCM32F096RCTx
+  cores:
+  - name: main
+    type: armv6m
+    core_access_options: !Arm
+      ap: 0
+      psel: 0
+  memory_map:
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20006000
+    cores:
+    - main
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8040000
+    is_boot_memory: true
+    cores:
+    - main
+  flash_algorithms:
+  - fcm32fxxx_256_2k
+  - fcm32fxxx_opt
+flash_algorithms:
+- name: fcm32fxxx_256_2k
+  description: FCM32Fxxx 256kB Flash (2kB page)
+  default: true
+  instructions: RkhFSUFgRklBYAAhAWDBaBQiEUPBYMBpQAcG1EJIQUkBYAYhQWBBSYFgACBwRztIAWmAIhFDAWEAIHBHMLU3SMFoFCQhQ8FgAWkEJSlDAWEBaUAiEUMBYTVJM0oA4BFgw2jbB/vRAWmpQwFhwWghQgTQwWghQ8FgASAwvQAgML0wtSZJymgUIxpDymAKaQIkIkMKYUhhCGlAIhBDCGEkSCFKAOAQYM1o7Qf70QhpoEMIYchoGEAD0MhoGEPIYAEgML3wtRVNSRxJCOtoSQAEJCND62AUJxZMGuAraQEmM0MrYROIA4AQSwDgHGDuaPYH+9EraVsIWwArYetoO0IE0OhoOEPoYAEg8L2AHJIciR4AKeLRACDwvSMBZ0UAIAJAq4nvzVVVAAAAMABA/w8AAKqqAAAAAAAA
+  pc_init: 0x1
+  pc_uninit: 0x2f
+  pc_program_page: 0xc3
+  pc_erase_sector: 0x81
+  pc_erase_all: 0x3d
+  data_section_offset: 0x134
+  flash_properties:
+    address_range:
+      start: 0x8000000
+      end: 0x8040000
+    page_size: 0x400
+    erased_byte_value: 0xff
+    program_page_timeout: 100
+    erase_sector_timeout: 6000
+    sectors:
+    - size: 0x800
+      address: 0x0
+- name: fcm32fxxx_opt
+  description: FCM32Fxxx Flash Options
+  instructions: U0hSSkJgU0lBYIJggWAAIQFgwWgUIhFDwWDAaUAHBtROSE1JAWAGIUFgTUmBYAAgcEdHSAFpgCIRQwFhAWmCFZFDAWEAIHBHcLVBSMFoFCMZQ8FgAWkgJCFDAWEBaUAiEUMBYT9JPUoA4BFgxWjtB/vRBWmlQwVhBWkQJCVDBWE1TTlOVTU1gADgEWDFaO0H+9EBaaFDAWHBaBlCBNDBaBlDwWABIHC9ACBwvTC1KEjBaBQkIUPBYAFpICUpQwFhAWlAIhFDAWEmSSRKAOARYMNo2wf70QFpqUMBYcFoIUIE0MFoIUPBYAEgML0AIDC9ASBwR/C1Fk1JHEkI62hJAAQkI0PrYBAmFksa4CxpNEMsYRSIBIARTADgI2DvaP8H+9EsabRDLGHsaBQnPEIF0OhoFCEIQ+hgASDwvYAckhyJHgAp4tEAIPC9AAAjAWdFACACQKuJ781VVQAAADAAQP8PAACqqgAAAPj/HwAAAAA=
+  pc_init: 0x1
+  pc_uninit: 0x33
+  pc_program_page: 0xf5
+  pc_erase_sector: 0xad
+  pc_erase_all: 0x49
+  data_section_offset: 0x16c
+  flash_properties:
+    address_range:
+      start: 0x1ffff800
+      end: 0x1ffff810
+    page_size: 0x10
+    erased_byte_value: 0xff
+    program_page_timeout: 3000
+    erase_sector_timeout: 3000
+    sectors:
+    - size: 0x10
+      address: 0x0
+- name: fcm32fxxx_32
+  description: FCM32Fxxx 32kB Flash
+  default: true
+  instructions: RkhFSUFgRklBYAAhAWDBaBQiEUPBYMBpQAcG1EJIQUkBYAYhQWBBSYFgACBwRztIAWmAIhFDAWEAIHBHMLU3SMFoFCQhQ8FgAWkEJSlDAWEBaUAiEUMBYTVJM0oA4BFgw2jbB/vRAWmpQwFhwWghQgTQwWghQ8FgASAwvQAgML0wtSZJymgUIxpDymAKaQIkIkMKYUhhCGlAIhBDCGEkSCFKAOAQYM1o7Qf70QhpoEMIYchoGEAD0MhoGEPIYAEgML3wtRVNSRxJCOtoSQAEJCND62AUJxZMGuAraQEmM0MrYROIA4AQSwDgHGDuaPYH+9EraVsIWwArYetoO0IE0OhoOEPoYAEg8L2AHJIciR4AKeLRACDwvSMBZ0UAIAJAq4nvzVVVAAAAMABA/w8AAKqqAAAAAAAA
+  pc_init: 0x1
+  pc_uninit: 0x2f
+  pc_program_page: 0xc3
+  pc_erase_sector: 0x81
+  pc_erase_all: 0x3d
+  data_section_offset: 0x134
+  flash_properties:
+    address_range:
+      start: 0x8000000
+      end: 0x8008000
+    page_size: 0x400
+    erased_byte_value: 0xff
+    program_page_timeout: 100
+    erase_sector_timeout: 6000
+    sectors:
+    - size: 0x400
+      address: 0x0
+- name: fcm32fxxx_64
+  description: FCM32Fxxx 64kB Flash
+  default: true
+  instructions: RkhFSUFgRklBYAAhAWDBaBQiEUPBYMBpQAcG1EJIQUkBYAYhQWBBSYFgACBwRztIAWmAIhFDAWEAIHBHMLU3SMFoFCQhQ8FgAWkEJSlDAWEBaUAiEUMBYTVJM0oA4BFgw2jbB/vRAWmpQwFhwWghQgTQwWghQ8FgASAwvQAgML0wtSZJymgUIxpDymAKaQIkIkMKYUhhCGlAIhBDCGEkSCFKAOAQYM1o7Qf70QhpoEMIYchoGEAD0MhoGEPIYAEgML3wtRVNSRxJCOtoSQAEJCND62AUJxZMGuAraQEmM0MrYROIA4AQSwDgHGDuaPYH+9EraVsIWwArYetoO0IE0OhoOEPoYAEg8L2AHJIciR4AKeLRACDwvSMBZ0UAIAJAq4nvzVVVAAAAMABA/w8AAKqqAAAAAAAA
+  pc_init: 0x1
+  pc_uninit: 0x2f
+  pc_program_page: 0xc3
+  pc_erase_sector: 0x81
+  pc_erase_all: 0x3d
+  data_section_offset: 0x134
+  flash_properties:
+    address_range:
+      start: 0x8000000
+      end: 0x8010000
+    page_size: 0x400
+    erased_byte_value: 0xff
+    program_page_timeout: 100
+    erase_sector_timeout: 6000
+    sectors:
+    - size: 0x400
+      address: 0x0
+- name: fcm32fxxx_128_2k
+  description: FCM32Fxxx 128kB Flash (2kB page)
+  default: true
+  instructions: RkhFSUFgRklBYAAhAWDBaBQiEUPBYMBpQAcG1EJIQUkBYAYhQWBBSYFgACBwRztIAWmAIhFDAWEAIHBHMLU3SMFoFCQhQ8FgAWkEJSlDAWEBaUAiEUMBYTVJM0oA4BFgw2jbB/vRAWmpQwFhwWghQgTQwWghQ8FgASAwvQAgML0wtSZJymgUIxpDymAKaQIkIkMKYUhhCGlAIhBDCGEkSCFKAOAQYM1o7Qf70QhpoEMIYchoGEAD0MhoGEPIYAEgML3wtRVNSRxJCOtoSQAEJCND62AUJxZMGuAraQEmM0MrYROIA4AQSwDgHGDuaPYH+9EraVsIWwArYetoO0IE0OhoOEPoYAEg8L2AHJIciR4AKeLRACDwvSMBZ0UAIAJAq4nvzVVVAAAAMABA/w8AAKqqAAAAAAAA
+  pc_init: 0x1
+  pc_uninit: 0x2f
+  pc_program_page: 0xc3
+  pc_erase_sector: 0x81
+  pc_erase_all: 0x3d
+  data_section_offset: 0x134
+  flash_properties:
+    address_range:
+      start: 0x8000000
+      end: 0x8020000
+    page_size: 0x400
+    erased_byte_value: 0xff
+    program_page_timeout: 100
+    erase_sector_timeout: 6000
+    sectors:
+    - size: 0x800
+      address: 0x0
+- name: fcm32fxxx_64_2k
+  description: FCM32Fxxx 64kB Flash (2kB page)
+  default: true
+  instructions: RkhFSUFgRklBYAAhAWDBaBQiEUPBYMBpQAcG1EJIQUkBYAYhQWBBSYFgACBwRztIAWmAIhFDAWEAIHBHMLU3SMFoFCQhQ8FgAWkEJSlDAWEBaUAiEUMBYTVJM0oA4BFgw2jbB/vRAWmpQwFhwWghQgTQwWghQ8FgASAwvQAgML0wtSZJymgUIxpDymAKaQIkIkMKYUhhCGlAIhBDCGEkSCFKAOAQYM1o7Qf70QhpoEMIYchoGEAD0MhoGEPIYAEgML3wtRVNSRxJCOtoSQAEJCND62AUJxZMGuAraQEmM0MrYROIA4AQSwDgHGDuaPYH+9EraVsIWwArYetoO0IE0OhoOEPoYAEg8L2AHJIciR4AKeLRACDwvSMBZ0UAIAJAq4nvzVVVAAAAMABA/w8AAKqqAAAAAAAA
+  pc_init: 0x1
+  pc_uninit: 0x2f
+  pc_program_page: 0xc3
+  pc_erase_sector: 0x81
+  pc_erase_all: 0x3d
+  data_section_offset: 0x134
+  flash_properties:
+    address_range:
+      start: 0x8000000
+      end: 0x8010000
+    page_size: 0x400
+    erased_byte_value: 0xff
+    program_page_timeout: 100
+    erase_sector_timeout: 6000
+    sectors:
+    - size: 0x800
+      address: 0x0
